@@ -1,5 +1,5 @@
 # log file
-*.log
+logs/*
 
 # vscode file
 .vscode/*
