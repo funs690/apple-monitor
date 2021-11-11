@@ -37,7 +37,7 @@ hangzhou_wanxiang = "R532"
 hangzhou_xihu = "R471"
 
 split_symbol_line = "####################################################################################\n"
-split_store_line = "#################################"
+split_store_line = "#################################\n"
 split_new_line = ""
 split_blank_line = " \n"
 
