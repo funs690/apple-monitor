@@ -46,7 +46,8 @@ log_path = "../logs/"
 def get_goods_info():
     # 请求调用
     response = requests.get(url=endponit, params=params)
-    logging.info("response : " + response.text)
+    # 注释日志数据打印
+    # logging.info("response : " + response.text)
     # 加载json
     goods_info = json.loads(response.text)
     # 获取门店信息
