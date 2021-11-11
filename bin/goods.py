@@ -41,7 +41,7 @@ split_store_line = "#################################"
 split_new_line = ""
 split_blank_line = " \n"
 
-
+log_path = "../logs/"
 
 def get_goods_info():
     # 请求调用
@@ -56,7 +56,7 @@ def get_goods_info():
     stores = pickupMessage["stores"]
     # 门店信息解析
     file_name = time.strftime("%Y-%m-%d-%H", time.localtime())
-    file = open(file_name + '.log', 'a', encoding="utf-8")
+    file = open(log_path + file_name + '.log', 'a', encoding="utf-8")
     # 遍历门店信息
     file.write(split_symbol_line)
     file.write(split_store_line)

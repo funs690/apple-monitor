@@ -3,7 +3,7 @@ import schedule
 import logging
 
 LOG_FORMAT = "%(asctime)s - %(levelname)s - %(message)s"
-logging.basicConfig(filename='system.log', level=logging.DEBUG, format=LOG_FORMAT)
+logging.basicConfig(filename='../logs/system.log', level=logging.DEBUG, format=LOG_FORMAT)
 
 # 定义函数
 def get_goods_info_job() :
